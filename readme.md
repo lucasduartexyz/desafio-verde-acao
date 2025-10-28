@@ -11,7 +11,7 @@ A página é composta por quatro seções principais:
 3.  **Formulário de Cadastro:** Campos para coletar dados dos interessados (Nome, E-mail, Cidade e Atividade).
 4.  **Rodapé:** Informações de copyright.
 
-![Visão geral do projeto Verde Ação](image_888907.png)
+<img src="./assets/image_888907.png" alt="Imagem do projeto">
 
 ## 💡 Desafio de Layout
 
@@ -28,8 +28,6 @@ Toda a estrutura e alinhamento dos elementos foram feitos usando técnicas de CS
 
 - **HTML5:** Estrutura semântica do site.
 - **CSS3:** Estilização, fontes customizadas (`@import` do Google Fonts) e layout.
-
-## 🚀 Como Visualizar
 
 ## 🚀 Como Visualizar
 
