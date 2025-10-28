@@ -13,7 +13,7 @@ A página é composta por quatro seções principais:
 
 <img src="./assets/image_888907.png" alt="Imagem do projeto">
 
-## Figma do Projeto
+## 🖼️ Figma do Projeto
 
 https://www.figma.com/design/EaumLQKHhPAeqajtGPeEzi/Verde-A%C3%A7%C3%A3o---Karynne-e-Fernanda?node-id=4004-18&t=lYxzQrFQqVjAEp3N-0
 
