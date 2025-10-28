@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Verde Ação</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h2>Verde Ação</h2>
+        <nav>
+          <a href="#">Atividades</a>
+          <a href="#">Cadastre-se</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="banner">
+        <div>
+          <h2>Verde Ação</h2>
+          <p>
+            Ser voluntário na Verde Ação é plantar esperança e colher
+            transformação. Juntos, cuidamos do planeta e inspiramos mudanças
+            reais!
+          </p>
+          <a class="botao-banner" href="#formulario">Quero ser voluntario</a>
+        </div>
+      </section>
+      <section id="cards">
+        <div class="card">
+          <img src="./assets/girassol.png" alt="Um campo de girassóis" />
+          <h2>Plantio de mudas</h2>
+          <p>Cada muda plantada ajuda a restaurar o meio ambiente</p>
+          <input type="button" value="Ver mais" class="botao-card" />
+        </div>
+        <div class="card">
+          <img src="./assets/criancas.png" alt="Um campo de girassóis" />
+          <h2>Educação Ambiental</h2>
+          <p>Promove oficinas e rodas de conversas</p>
+          <input type="button" value="Ver mais" class="botao-card" />
+        </div>
+        <div class="card">
+          <img src="./assets/plantacao.png" alt="Um campo de girassóis" />
+          <h2>Cuidados</h2>
+          <p>Ajude a manter areas preservadas</p>
+          <input type="button" value="Ver mais" class="botao-card" />
+        </div>
+        <div class="card">
+          <img src="./assets/florestas.png" alt="Um campo de girassóis" />
+          <h2>Mapeamento</h2>
+          <p>Indentifique areas que precisam de mapeamento</p>
+          <input type="button" value="Ver mais" class="botao-card" />
+        </div>
+      </section>
+      <section id="formulario">
+        <div>
+          <div>
+            <h2>Cadastre-se como voluntário</h2>
+            <p>
+              Faça parte de ações que transformam o mundo. Com pequenas
+              atitudes, você pode gerar grandes impactos na natureza e na
+              comunidade
+            </p>
+          </div>
+          <form action="">
+            <div>
+              <label for="nome">Nome:</label>
+              <input type="text" name="nome" id="nome" placeholder="Nome" />
+            </div>
+            <div>
+              <label for="email">E-mail:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="E-mail"
+              />
+            </div>
+            <div>
+              <label for="cidade">Cidade:</label>
+              <input
+                type="text"
+                name="cidade"
+                id="cidade"
+                placeholder="Cidade"
+              />
+            </div>
+            <div>
+              <label for="atividade">Atividade:</label>
+              <select id="atividade">
+                <option value="default" disabled selected>
+                  Selecione atividade
+                </option>
+                <option value="patio-de-mudas">Pátio de mudas</option>
+                <option value="educacao-ambiental">Educação Ambiental</option>
+                <option value="cuidados">Cuidados</option>
+                <option value="mapeamento">Mapeamento</option>
+              </select>
+            </div>
+            <input type="button" value="Cadastrar" class="botao-form" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>© todos os direitos reservados</p>
+    </footer>
+  </body>
+</html>

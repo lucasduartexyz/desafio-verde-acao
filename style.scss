@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  a {
+    text-decoration: none;
+  }
+}
+header {
+  background-color: #66bb6a;
+  height: 7.6875rem;
+  text-align: center;
+  div {
+    display: inline-block;
+    width: 67.5625rem;
+    h2 {
+      padding-top: 1.9375rem;
+      font-size: 3.125rem;
+      font-family: "Sansita Swashed", sans-serif;
+      color: white;
+      display: inline-block;
+    }
+    nav {
+      display: inline-block;
+      margin-left: 15.375rem;
+      a {
+        color: white;
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-left: 8.25rem;
+        font-family: Roboto, sans-serif;
+      }
+      a:hover {
+        cursor: pointer;
+        color: rgb(210, 245, 210);
+      }
+    }
+  }
+}
+
+main {
+  #banner {
+    background-image: url(./assets/background.png);
+    background-size: cover;
+    height: 35.75rem;
+    color: white;
+    text-align: center;
+
+    h2 {
+      font-size: 6rem;
+      font-family: "Sansita Swashed", sans-serif;
+      padding-top: 6.25rem;
+    }
+    p {
+      width: 49.8125rem;
+      font-size: 1.5rem;
+      margin: 3.125rem auto 3.125rem auto;
+      font-weight: bold;
+    }
+    .botao-banner {
+      font-size: 1.75rem;
+      font-weight: bold;
+      color: white;
+      background: #66bb6a;
+      border-radius: 4.25rem;
+      height: 5.625rem;
+      width: 25.3125rem;
+      text-align: center;
+      border: none;
+      padding: 2rem;
+    }
+    .botao-banner:hover {
+      cursor: pointer;
+      background-color: rgb(36, 163, 43);
+    }
+  }
+  #cards {
+    min-height: 41.25rem;
+    padding: 6rem 0;
+    text-align: center;
+    background-color: #f1f8e9;
+    .card {
+      display: inline-block;
+      height: 26.75rem;
+      width: 19.25rem;
+      background-color: white;
+      border-radius: 0.9375rem;
+      margin: 1.3125rem 1.3125rem 1.3125rem 1.3125rem;
+      box-shadow: 0 0.25rem 0.25rem 0 #00000040;
+      text-align: center;
+      vertical-align: top;
+      h2 {
+        font-size: 1.4rem;
+        height: 2rem;
+      }
+      p {
+        font-size: 0.9375rem;
+        margin: 1.25rem 0.5rem;
+        height: 4rem;
+      }
+      img {
+        border-radius: 0.9375rem 0.9375rem 0 0;
+        margin-bottom: 0.9375rem;
+      }
+      .botao-card {
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: white;
+        background: #66bb6a;
+        border-radius: 4.25rem;
+        height: 3.0625rem;
+        width: 9.3125rem;
+        text-align: center;
+        border: none;
+      }
+      .botao-card:hover {
+        cursor: pointer;
+        background-color: rgb(36, 163, 43);
+      }
+    }
+  }
+  #formulario {
+    text-align: center;
+    background-color: #e8f5e9;
+    div {
+      color: #2a2a2a;
+      text-align: center;
+      div {
+        h2 {
+          font-size: 3.5rem;
+          padding: 1rem 0;
+          font-weight: bold;
+        }
+        p {
+          display: inline-block;
+          font-size: 1.75rem;
+          width: 59.3125rem;
+        }
+      }
+      form {
+        width: 43.4375rem;
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 4rem;
+        .botao-form {
+          font-size: 1.75rem;
+          margin-top: 1rem;
+          font-weight: bold;
+          color: white;
+          background: #66bb6a;
+          border-radius: 1.5625rem;
+          height: 5.0625rem;
+          width: 100%;
+          text-align: center;
+          border: none;
+        }
+        .botao-form:hover {
+          cursor: pointer;
+          background-color: rgb(36, 163, 43);
+        }
+
+        div {
+          text-align: left;
+          padding: 1rem 0;
+          label {
+            font-size: 1.5rem;
+            margin: 1rem 0;
+            text-align: left;
+            font-weight: bold;
+          }
+          input,
+          select {
+            margin-top: 1rem;
+            text-align: left;
+            width: 100%;
+            font-size: 1.75rem;
+            background: white;
+            height: 3.375rem;
+            border: none;
+            border-radius: 1.5625rem;
+            padding: 0.8125rem 1.5625rem;
+          }
+          input::placeholder,
+          select:invalid {
+            color: #8e8e8e;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  height: 7.6875rem;
+  background-color: #66bb6a;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+
+  p {
+    line-height: 7.6875rem;
+  }
+}
