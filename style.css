@@ -14,29 +14,30 @@ body a {
 
 header {
   background-color: #66bb6a;
-  height: 7.6875rem;
+  height: 17vh;
   text-align: center;
 }
 header div {
-  display: inline-block;
-  width: 67.5625rem;
+  width: 80vw;
+  height: 10vh;
+  margin: auto;
 }
 header div h2 {
-  padding-top: 1.9375rem;
   font-size: 3.125rem;
   font-family: "Sansita Swashed", sans-serif;
   color: white;
   display: inline-block;
+  margin-top: 5vh;
 }
 header div nav {
   display: inline-block;
-  margin-left: 15.375rem;
+  margin-left: 15vw;
 }
 header div nav a {
   color: white;
   font-weight: bold;
   font-size: 1.5rem;
-  margin-left: 8.25rem;
+  margin-left: 4vw;
   font-family: Roboto, sans-serif;
 }
 header div nav a:hover {
